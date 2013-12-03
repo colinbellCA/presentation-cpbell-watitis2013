@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE outline PUBLIC "-//omnigroup.com//DTD OUTLINE 3.0//EN" "http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-v3.dtd">
+<outline xmlns="http://www.omnigroup.com/namespace/OmniOutliner/v3">
+  <style-attribute-registry>
+    <style-attribute version="1" key="font-fill" group="font" name="fill color" class="color">
+      <color w="0"/>
+    </style-attribute>
+    <style-attribute version="0" key="font-italic" group="font" name="italic" class="bool">no</style-attribute>
+    <style-attribute version="0" key="font-size" group="font" name="size" class="number">12</style-attribute>
+    <style-attribute version="0" key="font-weight" group="font" name="weight" class="number">5</style-attribute>
+    <style-attribute version="0" key="text-background-color" group="text" name="background color" class="color">
+      <color w="0" a="0"/>
+    </style-attribute>
+    <style-attribute version="1" key="underline-color" group="underline" name="color" class="color">
+      <color w="0"/>
+    </style-attribute>
+    <style-attribute version="1" key="underline-style" group="underline" name="style" class="enum">
+      <enum-name-table default-value="0">
+        <enum-name-table-element value="0" name="none"/>
+        <enum-name-table-element value="1" name="single"/>
+        <enum-name-table-element value="2" name="thick"/>
+        <enum-name-table-element value="9" name="double"/>
+      </enum-name-table>
+    </style-attribute>
+  </style-attribute-registry>
+  <named-styles>
+    <named-style id="kxNPpBp0eXq" name="Highlight" display-order="0">
+      <style>
+        <value key="text-background-color">
+          <color r="1" g="1" b="0.4"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="eWydEHvHe_3" name="Citation" display-order="1">
+      <style>
+        <value key="underline-color">
+          <color r="0" g="0" b="1"/>
+        </value>
+        <value key="underline-style">thick</value>
+      </style>
+    </named-style>
+    <named-style id="aFoOXA70d9Z" name="Emphasis" display-order="2">
+      <style>
+        <value key="font-italic">yes</value>
+      </style>
+    </named-style>
+  </named-styles>
+  <settings>
+    <page-adornment>
+      <first-page-headers is-active="yes">
+        <header location="center">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OOSectionTitleVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+      </first-page-headers>
+    </page-adornment>
+    <print-info>
+      <print-info-key name="NSPaperName" type="string">C6606ABF-04A6-4FBD-95B1-50A7AE58FC8B</print-info-key>
+      <print-info-key name="OOScaleDocumentToFitPageWidth" type="boolean">true</print-info-key>
+    </print-info>
+    <auto-generate-level-styles>no</auto-generate-level-styles>
+  </settings>
+  <editor content-size="{758, 653}" status-visible="no" is-spellchecking-enabled="yes">
+    <drawer palette-height="167"/>
+    <selected-rows ids="oidSJQu61Zm"/>
+    <selected-columns ids="jFqHUGd_Dg1"/>
+    <selected-characters range="{0, 0}"/>
+  </editor>
+  <columns>
+    <column id="dTpN3JwYpBn" type="text" width="18" minimum-width="18" maximum-width="18" text-export-width="1" is-note-column="yes">
+      <style>
+        <value key="font-fill">
+          <color r="0.33" g="0.33" b="0.33"/>
+        </value>
+        <value key="font-italic">yes</value>
+        <value key="font-size">11</value>
+      </style>
+      <title>
+        <text>
+          <p/>
+        </text>
+      </title>
+    </column>
+    <column id="jFqHUGd_Dg1" type="text" width="722" minimum-width="13" maximum-width="1000000" text-export-width="72" is-outline-column="yes">
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit>WatITis.2013</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+    </column>
+  </columns>
+  <root>
+    <style>
+      <value key="font-weight">9</value>
+      <value key="underline-style">single</value>
+    </style>
+    <item id="l5UKsI2KLAj" expanded="yes">
+      <values>
+        <text>
+          <p>
+            <run>
+              <lit>Background</lit>
+            </run>
+          </p>
+        </text>
+      </values>
+      <children>
+        <item id="dL-2-4CeZ_A">
+          <values>
+            <text>
+              <p>
+                <run>
+                  <lit>Abstract</lit>
+                </run>
+              </p>
+            </text>
+          </values>
+          <note expanded="yes">
+            <text>
+              <p>
+                <run>
+                  <lit>Title:  &quot;Why API?&quot; (and other Architectural Anecdotes)</lit>
+                </run>
+              </p>
+              <p>
+                <run>
+                  <lit>Abstract:</lit>
+                </run>
+              </p>
+              <p>
+                <run>
+                  <lit>&quot;&quot;&quot;</lit>
+                </run>
+              </p>
+              <p>
+                <run>
+                  <lit>The Enterprise Architecture (EA) group in IST is a new team formed in Fall 2013.  A formal architecture practice is something new at Waterloo but architecture is not new to how we work.  This talk will introduce the audience to architectural thinking through a series of anecdotes.  Initially the story of the data user will be examined.  Users across campus are clamoring for access to data to help them do their work.  When local needs are imperfectly met by user interfaces, intrapreneurs try to alleviate local pain.  This pattern of alleviation is common across campus-- this session will explore a variety of business and technology opportunities through &quot;user stories&quot; and show how architecture might help us succeed together.</lit>
+                </run>
+              </p>
+              <p>
+                <run/>
+              </p>
+              <p>
+                <run>
+                  <lit>The talk will conclude by probing how campus intrapreneurs are innovating today, how we can use architecture to support their efforts, and how we might improve our efficiency and effectiveness through collaboration.</lit>
+                </run>
+              </p>
+              <p>
+                <run>
+                  <lit>&quot;&quot;&quot;</lit>
+                </run>
+              </p>
+            </text>
+          </note>
+        </item>
+        <item id="nRHz-QgvYWQ">
+          <values>
+            <text>
+              <p>
+                <run>
+                  <lit>Original Abstract</lit>
+                </run>
+              </p>
+            </text>
+          </values>
+          <note expanded="yes">
+            <text>
+              <p>
+                <run>
+                  <lit>The Value of EA at uWaterloo</lit>
+                </run>
+              </p>
+              <p>
+                <run>
+                  <lit> </lit>
+                </run>
+              </p>
+              <p>
+                <run>
+                  <lit>“Enterprise Architecture (EA) is the formal description and documentation of an enterprise. The scope of EA analysis includes, but is not limited to: enterprise components, data entities, business processes, business functions, institutional data, and the relationships among all of these. EA typically focuses on three core descriptions: the &quot;current state&quot; of the enterprise; its &quot;future state&quot;, also called the &quot;target&quot; or &quot;desired&quot; state; and the roadmap or plan for achieving the future state. EA is business-driven and focused first on business strategy: the object is to document strategic goals and to ensure that the analyzed functions, processes, systems and enterprise components are aligned with and support the execution of that strategy.” – UW Enterprise Architecture Guide, Enterprise Architecture Working Group, May 2013.</lit>
+                </run>
+              </p>
+              <p>
+                <run>
+                  <lit> </lit>
+                </run>
+              </p>
+              <p>
+                <run>
+                  <lit>Does that sound like something UW needs? How does EA work in practice? How can uWaterloo ever achieve the ‘desired state’? An EA working group (EAWG) was formed in the fall of 2012, to discover the value of EA at uW using some practical, uWaterloo business examples. The group also worked on an EA Guide, to initiate EA as a formal practice at UW. This presentation will provide an introduction to EA, illustrate EA using UW examples, describe EAWG guiding principles and recommendations, and discuss current EA activities.</lit>
+                </run>
+              </p>
+            </text>
+          </note>
+        </item>
+        <item id="aafHP_CsUSF">
+          <values>
+            <text>
+              <p>
+                <run>
+                  <lit>Connect IT Blog</lit>
+                </run>
+              </p>
+            </text>
+          </values>
+          <note expanded="yes">
+            <text>
+              <p>
+                <run>
+                  <lit><cell href="https://collaborate.uwaterloo.ca/connect-it/node/275" name="collaborate.uwaterloo.ca—275" expanded="yes" type="link"/></lit>
+                </run>
+              </p>
+            </text>
+          </note>
+        </item>
+      </children>
+    </item>
+    <item id="aE_mwD1xC6C" expanded="yes">
+      <values>
+        <text>
+          <p>
+            <run>
+              <lit>Outline</lit>
+            </run>
+          </p>
+        </text>
+      </values>
+      <children>
+        <item id="jqhZhgNzFIG" expanded="yes">
+          <values>
+            <text>
+              <p>
+                <run>
+                  <lit>&quot;Why API?&quot;</lit>
+                </run>
+              </p>
+            </text>
+          </values>
+          <children>
+            <item id="k2X3UzSGcnb">
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>User Experience (UX)</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+            </item>
+            <item id="oidSJQu61Zm">
+              <values>
+                <null/>
+              </values>
+            </item>
+          </children>
+        </item>
+      </children>
+    </item>
+  </root>
+</outline>
