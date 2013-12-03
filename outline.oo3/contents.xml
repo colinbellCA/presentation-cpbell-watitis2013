@@ -8,6 +8,14 @@
     <style-attribute version="0" key="font-italic" group="font" name="italic" class="bool">no</style-attribute>
     <style-attribute version="0" key="font-size" group="font" name="size" class="number">12</style-attribute>
     <style-attribute version="0" key="font-weight" group="font" name="weight" class="number">5</style-attribute>
+    <style-attribute version="1" key="strikethrough-style" group="strikethrough" name="style" class="enum">
+      <enum-name-table default-value="0">
+        <enum-name-table-element value="0" name="none"/>
+        <enum-name-table-element value="1" name="single"/>
+        <enum-name-table-element value="2" name="thick"/>
+        <enum-name-table-element value="9" name="double"/>
+      </enum-name-table>
+    </style-attribute>
     <style-attribute version="0" key="text-background-color" group="text" name="background color" class="color">
       <color w="0" a="0"/>
     </style-attribute>
@@ -65,11 +73,11 @@
     </print-info>
     <auto-generate-level-styles>no</auto-generate-level-styles>
   </settings>
-  <editor content-size="{758, 653}" status-visible="no" is-spellchecking-enabled="yes">
+  <editor content-size="{850, 756}" status-visible="no" is-spellchecking-enabled="yes">
     <drawer palette-height="167"/>
-    <selected-rows ids="oidSJQu61Zm"/>
+    <selected-rows ids="nRHz-QgvYWQ"/>
     <selected-columns ids="jFqHUGd_Dg1"/>
-    <selected-characters range="{0, 0}"/>
+    <selected-characters range="{17, 0}"/>
   </editor>
   <columns>
     <column id="dTpN3JwYpBn" type="text" width="18" minimum-width="18" maximum-width="18" text-export-width="1" is-note-column="yes">
@@ -86,7 +94,7 @@
         </text>
       </title>
     </column>
-    <column id="jFqHUGd_Dg1" type="text" width="722" minimum-width="13" maximum-width="1000000" text-export-width="72" is-outline-column="yes">
+    <column id="jFqHUGd_Dg1" type="text" width="814" minimum-width="13" maximum-width="1000000" text-export-width="72" is-outline-column="yes">
       <title>
         <text>
           <p>
@@ -143,12 +151,10 @@
               </p>
               <p>
                 <run>
-                  <lit>The Enterprise Architecture (EA) group in IST is a new team formed in Fall 2013.  A formal architecture practice is something new at Waterloo but architecture is not new to how we work.  This talk will introduce the audience to architectural thinking through a series of anecdotes.  Initially the story of the data user will be examined.  Users across campus are clamoring for access to data to help them do their work.  When local needs are imperfectly met by user interfaces, intrapreneurs try to alleviate local pain.  This pattern of alleviation is common across campus-- this session will explore a variety of business and technology opportunities through &quot;user stories&quot; and show how architecture might help us succeed together.</lit>
+                  <lit>The Enterprise Architecture (EA) group in IST is a new team formed in Fall 2013.  A formal architecture practice is something new at Waterloo but architecture is not new to how we work.  This talk will introduce the audience to architectural thinking through a series of anecdotes.  Initially the story of the data user will be examined.  Users across campus are clamouring for access to data to help them do their work.  When local needs are imperfectly met by user interfaces, intrapreneurs try to alleviate local pain.  This pattern of alleviation is common across campus-- this session will explore a variety of business and technology opportunities through &quot;user stories&quot; and show how architecture might help us succeed together.</lit>
                 </run>
               </p>
-              <p>
-                <run/>
-              </p>
+              <p/>
               <p>
                 <run>
                   <lit>The talk will conclude by probing how campus intrapreneurs are innovating today, how we can use architecture to support their efforts, and how we might improve our efficiency and effectiveness through collaboration.</lit>
@@ -240,24 +246,111 @@
             <text>
               <p>
                 <run>
-                  <lit>&quot;Why API?&quot;</lit>
+                  <lit>The Data User</lit>
                 </run>
               </p>
             </text>
           </values>
           <children>
-            <item id="k2X3UzSGcnb">
+            <item id="d6w2femtt7a">
               <values>
                 <text>
                   <p>
                     <run>
-                      <lit>User Experience (UX)</lit>
+                      <lit>The User Story: A tutor wants to support their students by providing easy access to a novel personalized class schedule.</lit>
                     </run>
                   </p>
                 </text>
               </values>
             </item>
+            <item id="jJhCP3mZtz5" expanded="yes">
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>The User Experience (UX)</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+              <children>
+                <item id="m3gZtq5r9nV">
+                  <values>
+                    <text>
+                      <p>
+                        <run>
+                          <lit>Today the tutor would require an extract of ALL student information w/ class information. They would need to copy the extract (making them a custodian), process the extract file (transform), reconstruct the relationships (load), and then build their class schedule tool against this data.</lit>
+                        </run>
+                      </p>
+                    </text>
+                  </values>
+                </item>
+                <item id="nWN9OmTuAE4">
+                  <values>
+                    <text>
+                      <p>
+                        <run>
+                          <lit>Risk!  Complete copies of all student data are now uncontrolled.</lit>
+                        </run>
+                      </p>
+                    </text>
+                  </values>
+                </item>
+              </children>
+            </item>
             <item id="oidSJQu61Zm">
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>The User Interface (UI)</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+            </item>
+            <item id="dWtKuMf6e_b" expanded="yes">
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>The Data User Interface (DUI)</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+              <children>
+                <item id="ehD3eqlyCg5">
+                  <values>
+                    <text>
+                      <p>
+                        <run>
+                          <lit>Overloaded...  </lit>
+                        </run>
+                        <run>
+                          <style>
+                            <value key="strikethrough-style">single</value>
+                          </style>
+                          <lit>DUI</lit>
+                        </run>
+                      </p>
+                    </text>
+                  </values>
+                </item>
+              </children>
+            </item>
+            <item id="aSJLDt-M3v8">
+              <values>
+                <text>
+                  <p>
+                    <run>
+                      <lit>The Application Programming Interface (API)</lit>
+                    </run>
+                  </p>
+                </text>
+              </values>
+            </item>
+            <item id="pfdrhgqoQMF">
               <values>
                 <null/>
               </values>
