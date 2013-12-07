@@ -102934,7 +102934,7 @@ App}</string>
 		<key>ExpandedCanvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{376, 130}, {923, 857}}</string>
+		<string>{{375, 250}, {923, 778}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -102948,7 +102948,7 @@ App}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-99, 0}, {774, 702}}</string>
+		<string>{{-99, 0}, {774, 623}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>

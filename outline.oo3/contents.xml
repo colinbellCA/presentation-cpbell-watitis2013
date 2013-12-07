@@ -76,8 +76,8 @@
   <editor content-size="{850, 756}" status-visible="no" is-spellchecking-enabled="yes">
     <drawer palette-height="167"/>
     <selected-rows ids="nRHz-QgvYWQ"/>
-    <selected-columns ids="jFqHUGd_Dg1"/>
-    <selected-characters range="{17, 0}"/>
+    <selected-columns ids="dTpN3JwYpBn"/>
+    <selected-characters range="{944, 0}"/>
   </editor>
   <columns>
     <column id="dTpN3JwYpBn" type="text" width="18" minimum-width="18" maximum-width="18" text-export-width="1" is-note-column="yes">
@@ -154,7 +154,9 @@
                   <lit>The Enterprise Architecture (EA) group in IST is a new team formed in Fall 2013.  A formal architecture practice is something new at Waterloo but architecture is not new to how we work.  This talk will introduce the audience to architectural thinking through a series of anecdotes.  Initially the story of the data user will be examined.  Users across campus are clamouring for access to data to help them do their work.  When local needs are imperfectly met by user interfaces, intrapreneurs try to alleviate local pain.  This pattern of alleviation is common across campus-- this session will explore a variety of business and technology opportunities through &quot;user stories&quot; and show how architecture might help us succeed together.</lit>
                 </run>
               </p>
-              <p/>
+              <p>
+                <run/>
+              </p>
               <p>
                 <run>
                   <lit>The talk will conclude by probing how campus intrapreneurs are innovating today, how we can use architecture to support their efforts, and how we might improve our efficiency and effectiveness through collaboration.</lit>
